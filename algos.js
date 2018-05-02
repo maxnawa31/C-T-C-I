@@ -21,7 +21,7 @@ function fibonacci(n, memo = []) {
 
 //stairs combination
 
-function davis(n, memo = { 1: 1, 2: 3, 3: 4 }) {
+function davis(n, memo = { 1: 1, 2: 2, 3: 4 }) {
   if (n in memo) {
     return memo[n];
   }
